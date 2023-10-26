@@ -18,13 +18,16 @@
       "unique": true,
       "default": "Default news title"
     },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
     "image": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "excerpt": {
       "type": "customField",
@@ -48,12 +51,14 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::category.category",
-      "mappedBy": "news"
+      "mappedBy": "news",
+      "required": true
     },
     "author": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::author.author"
+      "target": "api::author.author",
+      "required": true
     }
   }
 }
