@@ -23,6 +23,12 @@
       "relation": "manyToOne",
       "target": "api::news.news",
       "inversedBy": "categories"
+    },
+    "video": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::video.video",
+      "inversedBy": "categories"
     }
   }
 }
