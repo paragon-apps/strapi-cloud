@@ -18,16 +18,13 @@
       "unique": true,
       "default": "Default news title"
     },
-    "slug": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
     "image": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "excerpt": {
       "type": "customField",
@@ -58,6 +55,16 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::author.author",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
       "required": true
     }
   }
