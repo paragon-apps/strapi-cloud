@@ -4,7 +4,8 @@
   "info": {
     "singularName": "video",
     "pluralName": "videos",
-    "displayName": "video"
+    "displayName": "video",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,7 +21,7 @@
       "targetField": "title",
       "required": true
     },
-    "url": {
+    "embedUrl": {
       "type": "string",
       "required": true
     },
@@ -34,6 +35,13 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::author.author"
+    },
+    "shareUrl": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
