@@ -46,10 +46,9 @@
     },
     "categories": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::category.category",
-      "mappedBy": "news",
-      "required": true
+      "mappedBy": "news"
     },
     "author": {
       "type": "relation",
