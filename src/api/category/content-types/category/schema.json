@@ -20,13 +20,13 @@
     },
     "news": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::news.news",
       "inversedBy": "categories"
     },
-    "video": {
+    "videos": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::video.video",
       "inversedBy": "categories"
     }
