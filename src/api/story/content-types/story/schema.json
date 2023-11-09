@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stories",
+  "info": {
+    "singularName": "story",
+    "pluralName": "stories",
+    "displayName": "story",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "callToActionType": {
+      "type": "enumeration",
+      "enum": [
+        "button",
+        "video"
+      ]
+    },
+    "callToActionTitle": {
+      "type": "string"
+    },
+    "callToActionUrl": {
+      "type": "string"
+    },
+    "storyTilesImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.media",
+      "required": true
+    }
+  }
+}
