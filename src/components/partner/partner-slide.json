@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_partner_partner_slides",
+  "info": {
+    "displayName": "partnerSlide",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "oneThirdSizeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "twoThirdSizeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "fullSizeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "partnerName": {
+      "type": "string",
+      "required": true
+    },
+    "preferredSize": {
+      "type": "enumeration",
+      "enum": [
+        "OneThird",
+        "TwoThird",
+        "Full"
+      ],
+      "required": true
+    }
+  }
+}
