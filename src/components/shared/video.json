@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_videos",
+  "info": {
+    "displayName": "video",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "embedUrl": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
