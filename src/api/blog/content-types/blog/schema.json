@@ -40,19 +40,27 @@
       "type": "uid",
       "targetField": "title"
     },
-    "content": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.rich-text",
-        "shared.slider",
-        "shared.video",
-        "blog.gallery"
-      ]
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "blog.highlighted-text",
+        "blog.image",
+        "blog.text",
+        "blog.video"
+      ]
     }
   }
 }
