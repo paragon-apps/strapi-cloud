@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blog_videos",
+  "info": {
+    "displayName": "Video",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "videoUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -2,12 +2,13 @@
   "collectionName": "components_shared_videos",
   "info": {
     "displayName": "video",
-    "icon": "play"
+    "icon": "play",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "embedUrl": {
-      "type": "text",
+      "type": "string",
       "required": true
     }
   }
