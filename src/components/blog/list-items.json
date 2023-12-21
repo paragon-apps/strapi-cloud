@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blog_list_items",
+  "info": {
+    "displayName": "List Items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

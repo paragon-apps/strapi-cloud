@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_section_titles",
+  "info": {
+    "displayName": "Section Title",
+    "icon": "strikeThrough"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hashId": {
+      "type": "string"
+    }
+  }
+}
