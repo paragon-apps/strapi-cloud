@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_partner_slides",
+  "info": {
+    "displayName": "slide",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slideImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partner.slide-image"
+    },
+    "slideName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
