@@ -59,7 +59,9 @@
         "blog.highlighted-text",
         "blog.image",
         "blog.text",
-        "blog.video"
+        "blog.video",
+        "blog.list",
+        "blog.section-title"
       ]
     }
   }
