@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_partner_sliders",
+  "info": {
+    "singularName": "home-page-partner-slider",
+    "pluralName": "home-page-partner-sliders",
+    "displayName": "homePagePartnerSlider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partner.slide"
+    }
+  }
+}
