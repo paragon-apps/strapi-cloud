@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_stories",
+  "info": {
+    "singularName": "home-story",
+    "pluralName": "home-stories",
+    "displayName": "homeStory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "story": {
+      "type": "component",
+      "repeatable": true,
+      "component": "story.sroty"
+    }
+  }
+}
