@@ -31,11 +31,20 @@
       "type": "string"
     },
     "storyTilesImages": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contentState": {
+      "type": "enumeration",
+      "enum": [
+        "Published",
+        "Draft"
+      ],
+      "default": "Draft",
       "required": true
     }
   }

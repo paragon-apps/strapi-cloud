@@ -14,6 +14,15 @@
     "slideName": {
       "type": "string",
       "required": true
+    },
+    "contentState": {
+      "type": "enumeration",
+      "enum": [
+        "Published",
+        "Draft"
+      ],
+      "default": "Draft",
+      "required": true
     }
   }
 }

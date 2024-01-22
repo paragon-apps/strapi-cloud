@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-story",
     "pluralName": "home-stories",
-    "displayName": "homeStory"
+    "displayName": "homeStory",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
