@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "giveaways_sliders",
+  "info": {
+    "singularName": "giveaways-slider",
+    "pluralName": "giveaways-sliders",
+    "displayName": "giveawaysSlider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slide": {
+      "displayName": "Giveaways Slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "giveaways.giveaways-slide"
+    }
+  }
+}

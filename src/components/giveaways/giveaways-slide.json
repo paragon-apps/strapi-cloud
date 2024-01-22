@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_giveaways_giveaways_slides",
+  "info": {
+    "displayName": "Giveaways Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "required": true
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bannerLinkText": {
+      "type": "string"
+    },
+    "bannerLink": {
+      "type": "string"
+    },
+    "contentState": {
+      "type": "enumeration",
+      "enum": [
+        "Published",
+        "Draft"
+      ],
+      "default": "Draft",
+      "required": true
+    }
+  }
+}
