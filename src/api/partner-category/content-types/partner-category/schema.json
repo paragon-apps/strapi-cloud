@@ -4,16 +4,26 @@
   "info": {
     "singularName": "partner-category",
     "pluralName": "partner-categories",
-    "displayName": "partnerCategory"
+    "displayName": "partnerCategory",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "partners": {
       "type": "relation",
